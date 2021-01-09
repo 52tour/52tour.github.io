@@ -1,0 +1,265 @@
+/* сброс стилей */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body {font:normal 100% Calibri, Tahoma;margin:0;padding:0;}
+h1{font-size:150%;}
+h2{font-size:120%;}
+h3{font-size:110%;}
+h4{font-size:100%;}
+a, a:link, a:active, a:visited{color: darkblue;}
+
+body{background:gray;}
+img{max-width:100%;border:0;overflow: hidden;}
+
+/* top-стиль */
+/*linear-gradient(to bottom, rgb(13, 57, 102) 0%, rgb(12, 52, 92) 31%, rgb(9, 40, 71) 78%, rgb(9, 37, 65) 100%) repeat scroll 0% 0% transparent;*/
+#top {overflow:hidden;background: rgb(13, 57, 102);color:white;}
+#top h2{color:white;text-shadow:0.5px 0.5px 1px #AAAAFF;}
+#top #logo{float:left;padding:1em 1em 1em 3em;}
+#top #tel{float:right;padding:1em;}
+#top a{color:white;}
+#top #line {float:left;width:100%;height:0.5em;background: white;}
+#but {float:left;width:100%;background: white;}
+
+/* Выпадающее меню  repeat fixed center bottom */
+.menu {float:left; position:relative;  width:100%;cursor:pointer;}
+	.menu:hover .drop_menu{display:block; width:100%;}
+	.drop_menu{ display:none;position:absolute; left:0; top:5em; z-index:2; width:100%; float:left;
+	color:white; background: rgb(13, 57, 102);overflow:hidden;}
+.drop_menu a{text-decoration:none;color:white;}
+ .drop_menu h1{padding-left:1em;}
+ .drop_menu h2{padding-left:0.5em;color:white;font-size: 2em;text-shadow: 0.1em 0.08em 0.08em rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), 0px 1px rgb(0, 0, 0), -1px 1px rgb(0, 0, 0), -1px 0px rgb(0, 0, 0), -1px -1px rgb(0, 0, 0), 0px -1px rgb(0, 0, 0), 1px -1px rgb(0, 0, 0);}
+
+.drop_menu .country{float:left;width:12.5em;height:9.375em;margin:1em;color:black;
+ background: white url("/img/tour.jpg");
+ }
+
+/* потри не существующие изображения */
+.drop_menu .Austria{background: #E0FFFF url("/img/theme/Austria.jpg");}
+.drop_menu .Andorra{background: #7B68EE url("/img/theme/Andorra.jpg");}
+.drop_menu .Bulgaria{background: #FF69B4 url("/img/theme/Bulgaria.jpg");}
+.drop_menu .Brazil{background: #FFE4B5 url("/img/theme/Brazil.jpg");}
+.drop_menu .Hungary{background: #9ACD32 url("/img/theme/Hungary.jpg");}
+.drop_menu .Vietnam{background: #DC143C url("/img/theme/Vietnam.jpg");}
+.drop_menu .Germany{background: #A52A2A url("/img/theme/Germany.jpg");}
+.drop_menu .Greece{background: #1E90FF url("/img/theme/Greece.jpg");}
+.drop_menu .Dominican-republic{background: #B0C4DE url("/img/theme/Dominican-republic.jpg");}
+.drop_menu .Egypt{background: #FF6600 url("/img/theme/Egypt.jpg");}
+.drop_menu .Israel{background: #C71585 url("/img/theme/Israel.jpg");}
+.drop_menu .India{background: #CD5C5C url("/img/theme/India.jpg");}
+.drop_menu .Indonesia{background: #FAFAD2 url("/img/theme/Indonesia.jpg");}
+.drop_menu .Jordan{background: #FFE4B5 url("/img/theme/Jordan.jpg");}
+.drop_menu .Spain{background: #FF1493 url("/img/theme/Spain.jpg");}
+.drop_menu .Italy{background: #008000 url("/img/theme/Italy.jpg");}
+.drop_menu .Cambodia{background: #F0E68C url("/img/theme/Cambodia.jpg");}
+.drop_menu .Cyprus{background: #4682B4 url("/img/theme/Cyprus.jpg");}
+.drop_menu .China{background: #FF0000 url("/img/theme/China.jpg");}
+.drop_menu .Cuba{background: #FFE4E1 url("/img/theme/Cuba.jpg");}
+.drop_menu .Mauritius{background: #B0E0E6 url("/img/theme/Mauritius.jpg");}
+.drop_menu .Malaysia{background: #DDA0DD url("/img/theme/Malaysia.jpg");}
+.drop_menu .Maldives{background: #00BFFF url("/img/theme/Maldives.jpg");}
+.drop_menu .Morocco{background: #D8BFD8 url("/img/theme/Morocco.jpg");}
+.drop_menu .Mexico{background: #FFDAB9 url("/img/theme/Mexico.jpg");}
+.drop_menu .UAE{background: #FA8072 url("/img/theme/UAE.jpg");}
+.drop_menu .Portugal{background: #40E0D0 url("/img/theme/Portugal.jpg");}
+.drop_menu .Russia{background: #40E0D0 url("/img/theme/Russia.jpg");}
+.drop_menu .Seychelles{background: #7FFFD4 url("/img/theme/Seychelles.jpg");}
+.drop_menu .Singapore{background: #FFEFD5 url("/img/theme/Singapore.jpg");}
+.drop_menu .Thailand{background: #FFFF00 url("/img/theme/Thailand.jpg");}
+.drop_menu .Tunisia{background: #FFA500 url("/img/theme/Tunisia.jpg");}
+.drop_menu .Turkey{background: #FF7F50 url("/img/theme/Turkey.jpg");}
+.drop_menu .Philippines{background: #FAFAD2 url("/img/theme/Philippines.jpg");}
+.drop_menu .Finland{background: #6600FF url("/img/theme/Finland.jpg");}
+.drop_menu .France{background: #FFC0CB url("/img/theme/France.jpg");}
+.drop_menu .Croatia{background: #FF00FF url("/img/theme/Croatia.jpg");}
+.drop_menu .Montenegro{background: #4B0082 url("/img/theme/Montenegro.jpg");}
+.drop_menu .Czech-Republic{background: #A52A2A url("/img/theme/Czech-Republic.jpg");}
+.drop_menu .Sri-Lanka{background: #F08080  url("/img/theme/Sri-Lanka.jpg");}
+.drop_menu .Jamaica{background: #FFFACD url("/img/theme/Jamaica.jpg");}
+ 
+.brdr{float:left;width:98%;padding:1%;} /* класс для бордюра */
+
+#main{float:left;overflow:hidden;width:100%;}
+/* стиль календарика*/
+#calendar_box{float:left;width:25%;background:#d5d8da;overflow:hidden;}
+
+.ch_flyfrom{width:99%;margin:0.1em;background:#eaeaea;text-align:center;cursor:pointer;}
+.ch_flyfrom_{width:99%;margin:0.1em;background:#dadaee;text-align:center;cursor:pointer;}
+.ch_flyfrom:hover,.ch_flyfrom_:hover{background:#FFF47F;}
+
+.calendar{ float:left;width:100%;background:#F8F8FF;}/*border:2em solid #254061;15.5em;*/
+
+.calendar .month {background:white;margin-top:10%;overflow:hidden;}
+.calendar .month h3{width:95%;text-align:right;}
+.calendar .month .week{float:left;width:100%;}
+.calendar .month .week a{text-decoration:none;color:black;}
+.calendar .month .week div{float:left;width:8.28%;text-align:right;padding:3%;}
+.calendar .month .week .end{color:red;}
+.calendar .month .week .no{color:#aaaaaa;}
+
+.calendar .month .week .fly{background:#aaddff;}
+.calendar .month .week .fly-empty{background:#dddddd;}
+.calendar .month .week .fly:hover{background:#FFF47F;}
+.calendar .month .week .cur{padding:3%;background:#ff0000;}
+.calendar .month .week .cur p{background:white;}
+
+
+/* ЦЕНТРАЛЬНЫЙ БЛОК */
+#content{float:right;width:71%;background:#eaeaea;padding:1% 1% 1% 3%;}
+.hs{float:left;width:31.333%;background:#FFFDD8;padding:1%;}
+.hs:hover{background:#FFF47F;}
+.flame{background:white;}
+.flame:hover{background:white;}
+/* блок снизу */
+
+#footer{float:left;overflow:hidden;padding:1em 2% 1em 2%;background:white;color:gray;font-size:70%; font-family:Tahoma, Verdana;}
+#footer #copyleft{float:left;width:20%;height:3em;}
+#footer #copyright{float:left;width:75%;}
+
+.hf{width:98%;padding:1%;overflow:hidden;background-color:white;color:black;}
+.hf,.hf p,.hf div{float:left;font-family:tahoma, verdana;}
+.hl{width:18%;padding:1%;}
+.hr{width:78%;padding:1%;}
+.hk{width:100%;color:darkblue;}
+
+.hi{padding:2%; border:1px solid rgb(204, 204, 204); background-color:white; ;font-size:0.7em;text-decoration:none;}
+.hn{width:100%;font-size:0.9em;  text-decoration:none; font-weight:normal; color:black; letter-spacing:0; text-shadow:1px 1px 2px #AAAAAA;}
+.hr{font-size:0.75em;}
+.ha{font-size:0.75em;color:#333333;}
+.hb{float:right;cursor:pointer;border-radius:0.5em;}
+.hb:hover{background:#FFF47F;}
+/*--------------------------------------------------------------------*/
+
+.req_tour #content{
+padding:1em 2% 1em 2%;padding-left:10%;
+background:#2D76C4;
+color:#96B7FF;
+}
+.req_tour h1{
+color:white;
+padding:1em;
+}
+.req_tour{}
+
+
+.s{
+overflow:hidden;
+width:100%;
+padding:0.5em;
+}
+.l{
+float:left;
+width:25%;
+}
+.r{
+float:left;
+width:65%;
+overflow:hidden; /* для error-msg */
+}
+
+.error-msg {
+	/*
+	*/
+	border: 0.1em solid white !important;
+	border-radius:0.2em;
+	background:#FF006E;
+	padding:0.25em;
+	display:none;
+	float:left;
+	color:white;
+	font-size:90%;
+	margin-left:1em;
+	
+}
+.error-input, .error-i {
+	border: 0.1em solid red !important;
+	
+}
+/* req_tour box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6); */
+.req_tour input:focus, .req_tour textarea:focus {
+	border:0.1em solid yellow;
+	border-color: rgba(82, 168, 236, 0.8);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+	outline: 0px none;
+}
+.req_tour textarea{
+	width:18em;
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	float:left;
+}
+.req_tour input[type=submit]{
+	width:18em;
+	border:0.1em solid yellow;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	cursor:pointer;
+	background:#FF9651;
+	float:left;
+}
+.req_tour input[type=submit]:hover{
+	background:#FF6A00;
+}
+
+.req_tour input[type=text]{
+	width:18em;
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	float:left;
+}
+.req_tour select{
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	float:left;
+}
+.req_tour input[type=checkbox]{
+	margin:0 0.5em 0 1em;
+	float:left;
+}
+
+.req_tour #f_date_from, .req_tour #f_date_to, .req_tour #rur{
+	width:7em;
+	margin:0 0.3em;
+	text-align: right;
+}
+.req_tour #f_nights_of, .req_tour #f_nights_till, .req_tour #f_adults, .req_tour #f_child{
+	width:3.9em;
+	margin:0 0.3em;
+}
+.req_tour hr {
+	height:0.1em;
+	color:#96B7FF;
+	border-width: 0.1em 0 0.1em 0;
+	border-top: 1px solid #96B7FF;
+	border-bottom: 1px solid rgba(128,128,128,0.5);
+}
+.req_tour span {
+	float:left;
+}
+#btnwish a{color:#96B7FF;}
+/*-----------------------------------------------------------------------*/
+.ui-widget-content{
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	background:white;
+	
+}
+.ui-datepicker-calendar{border:0;}
+.ui-datepicker-calendar th {background:transparent;}
+/*-----------------------------------------------------------------------*/
+
+.shareimg{width:100%;position:fixed;bottom:0;left:0;z-index:9995;text-align:center;}
+.shareimg div{width:100%;background:#ddd; padding:0.2em 0.5em; }
+.shareimg div:hover,.shareimg div:hover::after,.shareimg div:focus,.shareimg div:focus::after{ background:#FC3;}
+.shareimg a{text-decoration:none;color:#444;font-size:100%;}.shareimg div{width:35%;margin-left:55%; padding:.5em 1.5em;background-image:linear-gradient(to bottom, #FC3, #FFFFCC);text-shadow:0 1px 0 rgba(255,255,255,.8);border-radius:5px 5px 0 0;box-shadow:0 2px 2px rgba(0,0,0,.4);}
+.shareimg div::after{background-image:linear-gradient(to bottom, #FC3, #ddd);box-shadow:2px 2px 2px rgba(0,0,0,.4);border-radius:0 5px 0 0;}

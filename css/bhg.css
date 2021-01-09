@@ -1,0 +1,223 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,b,i,table,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{text-align:center;font-size:100%;background:white;color:#000000;font-family:Arial,sans-serif/*Tahoma, Verdana*/;}
+h1, h2, h3, h4, h5, h6{width:100%;font-size:100%; font-family:Arial,sans-serif/*Tahoma, Verdana*/; color: #3F3F3F; margin-top:0.5pt; margin-bottom:0.5pt;}
+img{max-width:100%;border:0;overflow: hidden;}a{color:#006F9F; text-decoration:none;}
+ hr.r{ border:none; color:red; background-color:red; height:3pt; }
+ hr.g{ border:none; color:green; background-color:green; height:3pt; }
+ hr.bl{ border:none; color:blue; background-color:blue; height:3pt; }
+ hr.o{ border:none; color:orange; background-color:orange; height:3pt; }
+ .cont,.mlist{margin-top:0%;margin-right:0%;margin-bottom:0%; margin-left:1.7pt;margin-bottom:.0001pt;line-height:normal}
+div.s{overflow:hidden;width:100%;margin:0 0 1em 0;}
+div.l,div.r,div.l2,div.r2{float:none;width:100%;}
+
+.bhg-main, .bhg-center, .bhg-menu, .bhg-content, .content, .content-base, .bhg-action, .bhg-footer{width:100%;}
+.bhg-main{
+background:#F5F5F5  url(/img/banners/bg-beach-wave.jpg) repeat; background-size:100% 100%; overflow:hidden;
+}
+.bhg-main div{float:left;text-align:left;}
+.content{width:95%;text-align:left;padding:2%;}
+.content img{margin:0 0.5em 0 0;}
+.mhdr   {width:95%;text-align:left;text-align: left;margin: 0 0 1em 0;}
+.content-base{width:95%;text-align:left;}
+.bhg-action{width:100%;float:left;}
+/*.bhg-action div, .bhg-action div img{float:left;} //why box is overflow? */
+.bhg-menu{float:left;}
+.menubutton{overflow:hidden;font-size:100%;background:#747083;color:white;text-align:center;}
+.mbutton{overflow:hidden;font-size:100%;background:#747083;color:white;text-align:center; cursor:pointer;}
+.menubutton:hover{background-color:#009ED8; color:white;}
+.cssmenu-horizontal .menubutton{cursor:pointer;}
+.cssmenu-vertical .menubutton{cursor:pointer;width:100%;}
+.bhg-main{overflow:hidden;}
+
+
+
+.menubutton2{overflow:hidden;font-size:100%;text-align:center;border-right:1px solid #CCC; }
+.cssmenu-horizontal .menubutton2{cursor:pointer;}
+
+.menubutton3{overflow:hidden;font-size:100%;color:white;text-align:center;}
+.cssmenu-horizontal .menubutton3{cursor:pointer;}
+.menubutton3:hover{background-color:#009ED8; color:white;}
+
+.c {background-color:white; color: #777;border-bottom:1px solid #CCC;}
+
+
+.h {color:black;}
+
+.bhg-main div{padding:0 2% 0 2%;font-size:85%;}
+.bhg-main a:hover{text-decoration:underline;}
+.bhg-main h:hover{text-decoration:none;}
+
+
+.figure{width:50%; background-color:red;}
+.notoferta{font-size:50%;padding:0.25em;width:98%;}
+
+.d b{font-size:80%;}
+#tabs{overflow:hidden; width:100%; margin:0; padding:0; list-style:none;}
+#tabs li{float:left; margin:0 .1em 0 0; cursor:pointer;}
+#tabs div{position:relative; background:#ddd; margin:0.2em 0.2em; padding:0.2em 0.7em; float:left; text-decoration:none; color:#444;}
+#tabs div:hover,#tabs a:hover::after,#tabs a:focus,#tabs a:focus::after{ background:#FC3;}
+#tabs div:focus{outline:0;}
+#tabs div::after{content:''; position:absolute; z-index:1; top:0; right:-.5em; bottom:0; width:1em; background:#ddd;}
+#tabs #current div,#tabs #current div::after{background:#fff;z-index:3;}
+.content-base #content{background:#fff;margin:0;padding:2%;width:95%;position:relative;z-index:2;}
+.content-base #content h2, #content h3, #content p{margin:0 0 2% 1%;}
+#about{color:#999;}
+#about a{color:#eee;}
+
+.hottable{width:100%;overflow:hidden;}
+.hotmain{float:left;overflow:hidden;width:90%;margin:0.3em 0.3em 0.3em 0.3em;text-decoration:none;background-color:#ffe4c4; box-shadow:2px 2px 2px #CCCCCC; padding:2%; border:1px solid #CCCCCC; border-radius:1em;}
+.hotmain:hover{background-color:#ffd4b4;}
+.hotmain .ml{float:left;width:45%;}
+.hotmain .mr{float:left;width:45%;padding:0 5% 0 5%;font-size:0.7em;}
+.hotmain .more{float:left;width:90%;padding:0.5em 5% 0.5em 5%;text-align:left;font-size:0.7em;}
+.hotmain .info{float:left;padding:0 2% 0 2%;}
+.hotmain .zb{float:left;width:90%;padding:0.5em 5% 0.5em 5%;text-align:center;}
+.hotimg{padding:2%; border:1px solid rgb(204, 204, 204); background-color:white; ;font-size:0.7em;text-decoration:none;}
+ .hotname{font-size:0.8em; font-family:tahoma, verdana; text-decoration:none; font-weight:normal; color:black; letter-spacing:0; text-shadow:1px 1px 2px #AAAAAA;}
+ .hotregion{font-size:0.7em; font-family:tahoma, verdana; color:#777777 !important;}
+ .leanModal{color:#FF441F; font-weight:bold; font-size:1.2em; font-family:tahoma; text-decoration:none;}
+pre{font-size:0.9em;}
+
+.addinfoBox{float:left;width:96%;background:#fff;border:1px solid #d1d1d1;padding:0.3em;font-family:Arial,sans-serif;font-size:0.7em; border-radius:0.3em;box-shadow:0px 0px 0.7em #ddd;}
+
+.addinfoTitle{border-radius:0.3em;padding:0.3em;background-color:#efefef;background:linear-gradient(to bottom, #e0e0e0, #efefef);border:1px solid #d1d1d1;font-size:0.8em;font-weight:normal;text-shadow:1px 1px 0px #fff;margin:0;cursor:pointer;}
+.addinfoTitle:hover{text-shadow:0px 0px 0.3em #a1eeff;}
+.addinfoCon{padding:0.3em;overflow:hidden;margin:0;}
+.addinfoTitle .m{color:#747474;font:bold 0.8em Calibri, Optima, Arial, sans-serif;letter-spacing:0.15em;text-transform:uppercase;text-decoration:none;}
+.zakazbutton{background-color:#F48888;color:white;width:98%; padding:2px ! important; box-shadow:2px 2px 2px 2px #CCCCCC; border:3px solid #EEEEEE; border-radius:1em; font-size:0.7em; text-align:center; text-shadow:2px 2px 2px #555555;}
+.zakazbutton:hover{background-color:#F40000;}
+
+table {width:100%;border: 1pt solid #CCCCCC;border-collapse:collapse;text-align:left;vertical-align:middle;overflow:hidden;}
+th {border: 1pt solid #CCCCCC;padding:0 0.25em;font:bold 1em Tahoma;background-color:lightsteelblue;text-align:left;vertical-align:middle;}
+td {border: 1pt solid #CCCCCC;padding:0 0.25em;background-color:white;text-align:left; vertical-align:middle; }
+
+.left {float:left;margin:0.5em;}
+.right {float:right;margin:0.5em 0 0.5em 1.0em;}
+.jf {text-align:justify;}
+
+.news {border-bottom:1px solid #c6c6c6;overflow:hidden;width:100%;padding:0.3em 0;}
+
+tr .color_2{background:#ffffdd;}
+tr .color_0{background:#ffffff;}
+tr .color_1{background:#ddddff;}
+
+
+.select {float:left;cursor:pointer;border:1px solid gray;padding:0.25em;}
+.burn {
+float:left;/*cursor:pointer;*/border:1px solid #dadaff;padding:0.25em;
+width:20em;height:15em;}
+.burn img{height:7em;}
+
+/* for sliders */
+.slider div {display:none;}
+.slider div:first-child {display:block;}
+
+
+.bhg-topnavigator{background: #008ABD;}
+
+#hotform {
+	overflow:hidden;
+}
+#hotform #results {
+	display:none;
+}
+
+
+#hotform .block { /*#hotform input, #hotform select, #hotform label*/
+    display:block;
+}
+#hotform div.item {
+	float:left;
+	padding:0.25em 0.5em;
+}
+/*
+*/
+#hotform label {
+	color:black;font-size:0.8em;
+}
+
+#neigths {width:5em;}
+#hotform {
+    float: left;
+    width: 100%;
+/*    position: fixed;
+    background: darkblue;*/
+    padding: 0.25em;
+}
+/* #results {
+	overflow:hidden;
+    padding: 0.25em;
+    padding-top: 5em;
+} 
+.hotelinfo{
+    width: 100%;
+	color:black;
+	background:#eaeaff;
+}*/
+#month2block {display:none;}
+
+#hotform input[type=submit] {background: #FF6900 none repeat scroll 0% 0%;color: #FFF;
+border-width: 1px;border-style: solid;border-color: #F9AD25 #E19512 #CC8000;border-radius: 0.3em;
+cursor:pointer;
+padding:0.25em 0.5em;
+}
+#hotform input[type=submit]:hover {background: orange;
+}
+
+
+.flag {background: url("/img/flags.png");width: 18px;height: 14px;}
+
+
+.hf {border:1px solid #D5D5DB; border-bottom:4px solid #D5D5DB;margin:0.25em;padding:0.25em;
+	overflow:hidden;
+	background:white;} /* form */
+
+
+
+.change input[type=submit]{
+  cursor:pointer;
+  font-weight:bold;
+  float:left;
+  height:2em;
+  width:10em;
+  border:1px solid red;
+  border-radius:0.25em;
+  background: #FF4500;
+  color:white;
+}
+.change .hb{
+  display: none;
+}
+.change:hover .hb{
+  display: block;
+  border:1px solid green;
+  background: #5ABD5A;
+}
+.change:hover .hb2{
+  display: none;
+}
+
+
+.hf .column1, .hf .column2, .hf .column3 {
+  float:left;
+}
+.hf .column1, .hf .column3 {
+    width: 24%;
+}
+.hf .column2{
+    width: 50%;
+    padding:0.5em;
+}
+.hf .column3{
+    padding-top:2em;
+}
+.star {
+	color:orange;
+	font-size:1.5em;
+}
+.star span {
+	color:#D5D5DB;
+}
+.name {
+	text-shadow: 1px 1px 3px #CCC;
+}

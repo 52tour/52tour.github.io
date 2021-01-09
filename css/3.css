@@ -1,0 +1,11 @@
+.bhg-main{padding:1% 0 1% 0;width:100%;float:left;}
+.bhg-center{background:none;width:98%;padding:0 0 0 1%;float:left;}
+.bhg-menu{width:20%;float:left;}
+.bhg-content{background:none; width:78%;float:right;}
+.content, .mhdr{width:72%;float:left;background-color:#fffdfd;text-align:left;margin-top:0pt;box-shadow:0.1em 0.1em 0.1em lightsteelblue;border:1pt solid #CCCCCC;border-radius:5pt;}
+.content-base{width:72%;float:left;text-align:left;margin-top:0pt;}
+.bhg-action{width:20%;float:right;}
+.bhg-action div{float:none;}
+.bhg-footer{width:100%;float:left;}
+.address {font-size:120%;}
+.telephone{font-size:150%;}

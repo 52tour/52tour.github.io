@@ -1,0 +1,171 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body, h1, h2, h3, h4, h5, h6{font-size:100%; font-family:Tahoma, Verdana; color:#000099; margin-top:0.5pt; margin-bottom:0.5pt;}
+h1{font-size:150%;}
+h2{font-size:120%;}
+h3{font-size:110%;}
+h4{font-size:100%;}
+img{max-width:100%;border:0;overflow: hidden;}
+
+body {
+background:white url("/img/bga.jpg") repeat fixed center top;
+background-size:100% 100%;
+}
+
+#top {
+overflow:hidden;
+padding-left:2em;
+background: rgb(13, 57, 102);
+color:white;
+}
+#top h2{
+color:white;
+text-shadow:0.5px 0.5px 1px #AAAAFF;
+}
+#top #logo{
+float:left;
+width:70%;
+padding:1em;
+}
+#top #tel{
+float:left;
+padding:1em;
+}
+.req_tour{
+overflow:hidden;
+margin:0 2% 3em 2%;
+border-radius:0 0 1.5em 1.5em;
+}
+.req_tour #content{
+padding:1em 2% 1em 2%;
+background:#2D76C4;
+color:#96B7FF;
+}
+.req_tour h1{
+color:white;
+padding:1em;
+}
+#footer{
+overflow:hidden;
+padding:1em 2% 1em 2%;
+background:white;
+color:gray;
+font-size:70%; font-family:Tahoma, Verdana;
+}
+#footer #copyleft{
+float:left;
+width:20%;
+height:3em;
+}
+#footer #copyright{
+float:left;
+width:75%;
+}
+.s{
+overflow:hidden;
+width:100%;
+padding:0.5em;
+}
+.l{
+float:left;
+width:25%;
+}
+.r{
+float:left;
+width:65%;
+overflow:hidden;
+}
+.error-msg {
+	border: 0.1em solid white !important;
+	border-radius:0.2em;
+	background:#FF006E;
+	padding:0.25em;
+	display:none;
+	float:left;
+	color:white;
+	font-size:90%;
+	margin-left:1em;
+	
+}
+.error-input, .error-i {
+	border: 0.1em solid red !important;
+	
+}
+.req_tour input:focus, .req_tour textarea:focus {
+	border:0.1em solid yellow;
+	border-color: rgba(82, 168, 236, 0.8);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+	outline: 0px none;
+}
+.req_tour textarea{
+	width:18em;
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	float:left;
+}
+.req_tour input[type=submit]{
+	width:18em;
+	border:0.1em solid yellow;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	cursor:pointer;
+	background:#FF9651;
+	float:left;
+}
+.req_tour input[type=submit]:hover{
+	background:#FF6A00;
+}
+
+.req_tour input[type=text]{
+	width:18em;
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	float:left;
+}
+.req_tour select{
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	padding:0.25em;
+	font-weight:bold;
+	margin:0 0.3em;
+	float:left;
+}
+.req_tour input[type=checkbox]{
+	margin:0 0.5em 0 1em;
+	float:left;
+}
+
+.req_tour #f_date_from, .req_tour #f_date_to, .req_tour #rur{
+	width:7em;
+	margin:0 0.3em;
+	text-align: right;
+}
+.req_tour #f_nights_of, .req_tour #f_nights_till, .req_tour #f_adults, .req_tour #f_child{
+	width:3.9em;
+	margin:0 0.3em;
+}
+.req_tour hr {
+	height:0.1em;
+	color:#96B7FF;
+	border-width: 0.1em 0 0.1em 0;
+	border-top: 1px solid #96B7FF;
+	border-bottom: 1px solid rgba(128,128,128,0.5);
+}
+.req_tour span {
+	float:left;
+}
+/*-----------------------------------------------------------------------*/
+.ui-widget-content{
+	border:0.1em solid gray;
+	border-radius:0.2em;
+	background:white;
+}
+.ui-datepicker-calendar{border:0;}
+.ui-datepicker-calendar th {background:transparent;}
