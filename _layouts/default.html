@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<html lang="{{ site.lang | default: "ru-RU" }}">
+<head>
+		<title> </title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+		<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+		<link type="text/css" rel="stylesheet" href="css/bhg.css" media="all">
+		<!--[if lte IE 8]><link type="text/css"  rel="stylesheet" href="css/2.css" media="all"><![endif]-->
+		<link type="text/css"  rel="stylesheet" href="css/2.css" media="all and (min-width: 481px)">
+</head>
+<body>
+	{% include header.html %}
+	<header class="page-header" role="banner">
+		<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+		<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+	</header>
+	{{ content }}
+	
+	{% include footer.html %}
+</body>
+</html>
