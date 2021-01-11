@@ -28,7 +28,7 @@ date:
 
 ## Страны на побережье Черного моря
 
-<a href="/?n=turkey"><img class="right" alt="Туры в Турцию" src="/img/demre.jpg">Туры в Турцию</a>
+<a href="turkey.html"><img class="right" alt="Туры в Турцию" src="/img/demre.jpg">Туры в Турцию</a>
 
 ## Отдых на других морях
 

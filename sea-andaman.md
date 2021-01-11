@@ -27,7 +27,7 @@ date:
 
 ## Страны на побережье Андаманского моря
 
-<div class="s"><div class="l2"><p><a href="/?n=thailand">Туры в Тайланд</a></p></div><div class="r2"></div></div>
+- [Туры в Тайланд](thailand.html)
 
 ## Отдых на других морях
 
@@ -39,5 +39,3 @@ date:
 - [Южно Китайское море](sea-south-china.html)
 
 [вперед](sea-black.html)
-
-

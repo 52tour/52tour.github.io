@@ -35,5 +35,3 @@ date:
 - [Южно Китайское море](sea-south-china.html)
 
 [вперед](sea-south-china.html)
-
-

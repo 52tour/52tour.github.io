@@ -30,7 +30,9 @@ date:
 
 ## Страны на побережье Эгейского моря
 
-<a href="/?n=turkey"><p><img class="right" alt="Туры в Турцию" src="/img/demre.jpg">Туры в Турцию</p></a>
+<a href="turkey.html">
+<img class="right" alt="Туры в Турцию" src="/img/demre.jpg">Туры в Турцию
+</a>
 
 ## Отдых на других морях
 
