@@ -1,7 +1,8 @@
 html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,b,i,table,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
 body{text-align:center;font-size:100%;background:white;color:#000000;font-family:Arial,sans-serif/*Tahoma, Verdana*/;}
 h1, h2, h3, h4, h5, h6{width:100%;font-size:100%; font-family:Arial,sans-serif/*Tahoma, Verdana*/; color: #3F3F3F; margin-top:0.5pt; margin-bottom:0.5pt;}
-img{max-width:100%;border:0;overflow: hidden;}a{color:#006F9F; text-decoration:none;}
+img{max-width:100%;border:0;overflow: hidden;}
+a{color:#006F9F; text-decoration:none;}
  hr.r{ border:none; color:red; background-color:red; height:3pt; }
  hr.g{ border:none; color:green; background-color:green; height:3pt; }
  hr.bl{ border:none; color:blue; background-color:blue; height:3pt; }
@@ -17,6 +18,7 @@ background:#F5F5F5  url(/img/banners/bg-beach-wave.jpg) repeat; background-size:
 .bhg-main div{float:left;text-align:left;}
 .content{width:95%;text-align:left;padding:2%;}
 .content img{margin:0 0.5em 0 0;}
+.content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {padding:0.5em 0;}
 .mhdr   {width:95%;text-align:left;text-align: left;margin: 0 0 1em 0;}
 .content-base{width:95%;text-align:left;}
 .bhg-action{width:100%;float:left;}
