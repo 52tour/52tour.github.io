@@ -6,7 +6,7 @@ image: "/img/example.jpg"
 date: 
 ---
 
-<a href="/?n=sea-south-china"><div class="menubutton">назад</div></a>
+[назад](sea-south-china.html)
 
 ## Отдых на море
 - [Андаманское море](sea-andaman.html)
@@ -17,4 +17,4 @@ date:
 - [Эгейское море](sea-aegean.html)
 - [Южно Китайское море](sea-south-china.html)
 
-<a href="/?n=sea-aegean"><div class="menubutton">вперед</div></a>
+[вперед](sea-aegean.html)
