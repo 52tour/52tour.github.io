@@ -12,11 +12,22 @@
 </head>
 <body>
 	{% include header.html %}
+	<div class="bhg-center">
+		<div id="bhg-content" class="bhg-content">
+			<div id="sun" class="content"> <!-- if($d[0]!=3 -->
+		
 	<header class="page-header" role="banner">
 		<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
 		<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 	</header>
 	{{ content }}
+
+			</div>
+		<div class="bhg-action" id="bhg-action">
+		</div>
+		</div>
+		{% include menu.html %}
+	</div>
 	
 	{% include footer.html %}
 </body>
