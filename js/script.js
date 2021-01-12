@@ -140,7 +140,7 @@ myonload = function(){
 	//return;
 	};
 */
-    g("hot_a",$("#hot_a")[0]);
+/*    g("hot_a",$("#hot_a")[0]);
     g('hot_b',$("#hot_b_all")[0]);
     g('hot_in',$('#hot_in')[0]);
     
@@ -181,7 +181,7 @@ g('hot_s,Москва,Сингапур',$('#singapore_hot')[0]);
 g('hot_s,Москва,Шри Ланка',$('#srilanka_hot')[0]);
 g('hot_s,Москва,Египет',$('#egypt_hot')[0]);
 g('aviabilet',$('#aviabilety')[0]);
-
+*/
 	s2 = new Slider($("#slide2")[0], 3000);
 	s3 = new Slider($("#slide3")[0], 3100);
 	s5 = new Slider($("#slide5")[0], 3300);
