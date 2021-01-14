@@ -1,8 +1,17 @@
 ﻿<!doctype html>
 <html lang="{{ site.lang | default: "ru-RU" }}">
 <head>
-		<title>Нижегородское Бюро Путешествий; тел. +7 (920) 00-99-007; {{ page.title | default: site.title | default: site.github.repository_name }}</title>
+	{% if site.google_analytics %}
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', '{{ site.google_analytics }}');
+		</script>
+	{% endif %}
 		<meta charset="utf-8">
+		<title>Нижегородское Бюро Путешествий; тел. +7 (920) 00-99-007; {{ page.title | default: site.title | default: site.github.repository_name }}</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
 		<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
