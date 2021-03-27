@@ -6,7 +6,46 @@ image: "/img/example.jpg"
 date: 
 ---
 
-## Отели 5 звезд (можно найти отели Маврикия дешевле)
+## Отели
+
+- <a href="/hotels/mauritius/11737/index.html">angsana balaclava 5*</a>
+- <a href="/hotels/mauritius/11742/index.html">constance belle mare plage 5*</a>
+- <a href="/hotels/mauritius/11743/index.html">constance le prince maurice 5*</a>
+- <a href="/hotels/mauritius/11744/index.html">dinarobin hotel & spa 5*</a>
+- <a href="/hotels/mauritius/11746/index.html">four seasons resort maritius at anahita 5*</a>
+- <a href="/hotels/mauritius/11748/index.html">heritage awali golf & spa resort 4*</a>
+- <a href="/hotels/mauritius/11749/index.html">heritage le telfair golf & spa resort 5*</a>
+- <a href="/hotels/mauritius/11750/index.html">heritage the villas 5*</a>
+- <a href="/hotels/mauritius/11751/index.html">hilton mauritius resort & spa 5*</a>
+- <a href="/hotels/mauritius/11755/index.html">la pirogue 4*</a>
+- <a href="/hotels/mauritius/11758/index.html">le canonnier 4*</a>
+- <a href="/hotels/mauritius/11760/index.html">le mauricia hotel 4*</a>
+- <a href="/hotels/mauritius/11761/index.html">le meridien ile mauritius 4*</a>
+- <a href="/hotels/mauritius/11765/index.html">shangri-la s le touessrok 5*</a>
+- <a href="/hotels/mauritius/11767/index.html">le victoria 4*</a>
+- <a href="/hotels/mauritius/11769/index.html">long beach 5*</a>
+- <a href="/hotels/mauritius/11770/index.html">lux belle mare 5*</a>
+- <a href="/hotels/mauritius/11772/index.html">lux grand gaube 4*</a>
+- <a href="/hotels/mauritius/11773/index.html">lux le morne 5*</a>
+- <a href="/hotels/mauritius/11774/index.html">maradiva villas (ex.taj exotica) 5*</a>
+- <a href="/hotels/mauritius/11775/index.html">maritim hotel mauritius 4*</a>
+- <a href="/hotels/mauritius/11776/index.html">merville beach 3*</a>
+- <a href="/hotels/mauritius/11778/index.html">oberoi mauritius 5*</a>
+- <a href="/hotels/mauritius/11779/index.html">one & only le saint geran 5*</a>
+- <a href="/hotels/mauritius/11780/index.html">paradis hotel & golf club 5*</a>
+- <a href="/hotels/mauritius/11786/index.html">royal palm 5*</a>
+- <a href="/hotels/mauritius/11788/index.html">shandrani resort & spa 5*</a>
+- <a href="/hotels/mauritius/11789/index.html">shanti maurice a nira resort 5*</a>
+- <a href="/hotels/mauritius/11792/index.html">sofitel so mauritius bel ombre 5*</a>
+- <a href="/hotels/mauritius/11793/index.html">st regis mauritius 5*</a>
+- <a href="/hotels/mauritius/11794/index.html">sugar beach resort 5*</a>
+- <a href="/hotels/mauritius/11795/index.html">tamarina boutique (ex. tamarina beach golf&spa) 4*</a>
+- <a href="/hotels/mauritius/11796/index.html">tamassa 4*</a>
+- <a href="/hotels/mauritius/11799/index.html">the residence mauritius 5*</a>
+- <a href="/hotels/mauritius/11802/index.html">trou aux biches 5*</a>
+- <a href="/hotels/mauritius/15799/index.html">paradise beach 5*</a>
+- <a href="/hotels/mauritius/35165/index.html">the westin turtle bay resort & spa 5*</a>
+- <a href="/hotels/mauritius/44459/index.html">villa alizee 2*</a>
 
 
 <div id="mauritius_hot" style="width:100%;overflow:hidden;"></div>
