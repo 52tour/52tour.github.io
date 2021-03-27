@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="{{ site.lang | default: "ru-RU" }}">
+<head>
+	{% if site.google_analytics %}
+		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', '{{ site.google_analytics }}');
+		</script>
+	{% endif %}
+	<meta charset="utf-8">
+	<title>Нижегородское Бюро Путешествий; тел. +7 (920) 00-99-007; {{ page.title | default: site.title | default: site.github.repository_name }}</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+	<link rel="shortcut icon" type="image/x-icon"  href="/favicon.ico">
+	<link type="text/css" rel="stylesheet" href="/css/bhg.css" media="all">
+	<!--[if lte IE 8]><link type="text/css"  rel="stylesheet" href="css/2.css" media="all"><![endif]-->
+<!-- gallery -->
+	<link type="text/css"  rel="stylesheet" href="/css/2.css" media="all and (min-width: 481px)">
+	<!-- link rel="stylesheet" type="text/css" href="style.css" media="all" -->
+	
+	<link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox.css" media="screen" />
+	<script type="text/javascript" src="/js/fancybox/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="/js/fancybox/jquery.fancybox-1.2.77.js"></script>
+<!-- gallery -->
+</head>
+<body>
+	{% include header.html %}
+	<div class="bhg-center">
+		<div id="bhg-content" class="bhg-content">
+			<div id="sun" class="content"> <!-- if($d[0]!=3 -->
+		
+	<header class="page-header" role="banner">
+		<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+		<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+	</header>
+	{{ content }}
+
+			</div>
+		<div class="bhg-action" id="bhg-action">
+		</div>
+		</div>
+		{% include menu.html %}
+	</div>
+	
+	{% include footer.html %}
+	<!-- script src="js/jquery-1.9.1.min.js"></script><script src="js/webshim-1.16.0/js-webshim/minified/polyfiller.js"></script><script src="js/script.js"></script -->
+<!-- gallery -->
+<script type="text/javascript">
+	$("a.gallery, a.iframe").fancybox();
+	url=$("a.modalbox").attr('href');
+	$("a.modalbox").attr("href", url);	
+	$("a.modalbox").fancybox({"frameWidth":400,"frameHeight":400});
+	$("a.gallery2").fancybox({"padding":20,"imageScale":false,"zoomOpacity":false,"zoomSpeedIn":1000,"zoomSpeedOut":1000,"zoomSpeedChange":1000,"frameWidth":800,"frameHeight":600,"overlayShow":true,"overlayOpacity":0.8,"hideOnContentClick" :false,"centerOnScroll":false});
+	$("a.iframe").fancybox({"frameWidth":800,"frameHeight":600});
+</script>
+<!-- gallery -->
+</body>
+</html>
